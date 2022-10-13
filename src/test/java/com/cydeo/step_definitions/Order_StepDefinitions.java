@@ -21,6 +21,7 @@ public class Order_StepDefinitions {
 
         //Calling our login method to log in to web table app
         webTableLoginPage.login();
+        System.out.println("Hello World");
 
         //clicking to "order" link to go order page
         basePage.order.click();
